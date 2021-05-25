@@ -1,0 +1,373 @@
+<!-- HTML Document - FFC Exercise 5/5 - Personal Portfolio  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!----------------------------------------------------------->
+    <!-- Meta Tags -->
+    <!----------------------------------------------------------->
+    <meta charset="UTF-8" />
+    <!-- Unicode Character Encoding -->
+    <meta
+      name="description"
+      content="FreeCodeCamp Exercises - Personal Portfolio"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Pierson Lippard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive Viewport Background Tag -->
+
+    <!----------------------------------------------------------->
+    <!-- Title -->
+    <!----------------------------------------------------------->
+    <title>Personal Portfolio - Exercise 5/5</title>
+
+    <!----------------------------------------------------------->
+    <!-- Google Fonts -->
+    <!----------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!----------------------------------------------------------->
+    <!-- Font Awesome Icons -->
+    <!----------------------------------------------------------->
+    <script
+      src="https://kit.fontawesome.com/b1c493e6b3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!----------------------------------------------------------->
+    <!-- CSS Style Sheets -->
+    <!----------------------------------------------------------->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <!----------------------------------------------------------->
+  <!-- Body -->
+  <!----------------------------------------------------------->
+  <body>
+    <div class="container">
+      <!---------- HEADER ---------->
+      <header id="header">
+        <nav id="navbar">
+          <div class="nav-center">
+            <div class="nav-header">
+              <img id="header-img" src="img/pierson.png" alt="A logo characature of Pierson, holding a baseball." />
+
+
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+
+            <ul class="nav-links">
+              <li class="nav-link" href="#">
+                <a id="profile-link" href="https://freecodecamp.org/certification/pierson-lippard/responsive-web-design" target="_blank">Profile</a>
+              </li>
+              <li class="nav-link" href="#about">
+                <a href="#about">About</a>
+              </li>
+              <li class="nav-link" href="#projects">
+                <a href="#projects">Projects</a>
+              </li>
+              <li class="nav-link" href="#">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/pwl777" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/pierson-lippard-a945a98/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- header End -->
+      <!---------- MAIN ---------->
+      <main id="main">
+        <section id="welcome-section">
+          <h1 id="name">Pierson Lippard</h1>
+          <h2 id="occupation">--- Web Developer ---</h2>
+        </section>
+
+        <section id="projects" class="projects-bg">
+          <h2 class="projects-header">Here are some of my projects</h2>
+          <div class="projects-grid">
+               <!-- Project 1 -->
+            <a
+              href="https://codepen.io/PiersonLippard/pen/WNpoerr"
+              class="project-tile" target="_blank">
+              <img class="project-image" src="img/tribute-page.png" alt="screengrab of the tribute page" />
+              <p class="project-border">
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-left"
+                    class="svg-inline--fa fa-angle-left fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    ></path>
+                  </svg>
+                </span>
+                Tribute Page
+                <span class="arrow">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="angle-right"
+                      class="svg-inline--fa fa-angle-right fa-w-8"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 256 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                      ></path>
+                  </svg>
+
+              </p>
+            </a>
+            <!-- Project 2 -->
+            <a
+              href="https://codepen.io/PiersonLippard/pen/vYxyRrX"
+              class="project-tile" target="_blank">
+              <img class="project-image" src="img/survey-form-page.png" alt="screengrab of the survey form page" />
+              <p class="project-border">
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-left"
+                    class="svg-inline--fa fa-angle-left fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    ></path>
+                  </svg>
+                </span>
+                Survey Form
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-right"
+                    class="svg-inline--fa fa-angle-right fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    ></path>
+                </svg>
+                </span>
+                </p>
+            </a>
+            <!-- Project 3 -->
+            <a
+              href="https://codepen.io/PiersonLippard/pen/oNZZqbQ"
+              class="project-tile" target="_blank">
+              <img class="project-image" src="img/product-landing-page.jpeg" alt="screengrab of the product landing page" />
+              <p class="project-border">
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-left"
+                    class="svg-inline--fa fa-angle-left fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    ></path>
+                  </svg>
+                </span>
+                Product Landing Page
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-right"
+                    class="svg-inline--fa fa-angle-right fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    ></path>
+                </svg>
+                </span>
+                </p>
+            </a>
+            <!-- Project 4 -->
+            <a
+              href="https://codepen.io/PiersonLippard/pen/dyvWoMR"
+              class="project-tile" target="_blank">
+              <img class="project-image" src="img/technical-document-page.png" alt="screengrab of the technical document page" />
+              <p class="project-border">
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-left"
+                    class="svg-inline--fa fa-angle-left fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"
+                    ></path>
+                  </svg>
+                </span>
+                Technical Document Page
+                <span class="arrow">
+                    <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="angle-right"
+                    class="svg-inline--fa fa-angle-right fa-w-8"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 256 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                    ></path>
+                </svg>
+                </span>
+                </p>
+            </a>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="projects-header">My Skills & Experience</h2>
+            <div class="projects-grid">
+                <ul class="experience">
+                    <li><h3 class="work">Web Development </h3><br><h4 class="skills"> 1 Year <br>(JavaScript, CSS3, HTML5)</h4></li><br><br>
+                    <li><h3 class="work">Visual Effects Artist </h3><br><h4 class="skills">14 Years <br>(Maya, Mari, Nuke, Photoshop, Clarisse)</h4></li><br><br>
+                    <li><h3 class="work">Games Artist </h3><br><h4 class="skills">10 Years <br>(Maya, 3ds Max, Photoshop)</h4></li><br><br>
+                    <li><h3 class="work">Traditional Animation </h3><br><h4 class="skills">7 Years <br>(Pencils, Paper)</h4></li><br><br>
+                </ul>
+           </div>
+        </section>
+      </main>
+      <!---------- FOOTER ---------->
+      <footer class="footer">
+        <section class="footer-image">
+
+        </section>
+        <section class="footer-contact">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.freecodecamp.org/" target="_blank"
+                  >Profile</a
+                >
+              </li>
+              <li>
+                <a href="#">Contact Me</a>
+              </li>
+              <li>
+                <a class="footer-icon" href="https://www.freecodecamp.org/" target="_blank"
+                  ><i class="fas fa-at"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-icon" href="https://www.facebook.com/" target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer-icon" href="https://uk.linkedin.com/" target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <!-- section contact End -->
+        <hr />
+        <!-- Footer - Horizontal Line Break -->
+        <section class="footer-disclaimer">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Accesibility Help</a>
+              </li>
+              <li>
+                <a href="#">Disclaimer</a>
+              </li>
+              <li>
+                <a href="#">Terms Of Use</a>
+              </li>
+            </ul>
+          </nav>
+          <p id="footer-copy">Copyright &copy; 2021 Pierson Lippard</p>
+        </section>
+        <!-- section disclaimer End -->
+      </footer>
+      <!-- footer End -->
+    </div>
+
+    <!----------------------------------------------------------->
+    <!-- JavaScript -->
+    <!----------------------------------------------------------->
+    <script src="script.js" charset="UTF-8"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="UTF-8"></script>
+    
+  </body>
+</html>
+
